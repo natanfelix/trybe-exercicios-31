@@ -1,0 +1,1 @@
+Nesta aula iremos aprender a integração entre o Git e o GitHub e como realizar a sincronia entre ambos, repositório local e remoto.
