@@ -71,3 +71,47 @@ else {
   else {
     console.log('Insira um valor numérico válido')
   }
+
+  let pecaXadrez = 'Rainha';
+
+  switch (pecaXadrez.toLowerCase()) {
+    case 'bispo':
+      console.log('Movimento: na diagonal, para frente ou para trás');
+      break;
+    case 'cavalo':
+      console.log('Movimento: em forma de L, duas casas para frente ou para trás e uma para a esquerda ou direita');
+      break;
+    case 'peão':
+      console.log('Movimento: para frente, uma ou duas casas no primeiro movimento, depois uma casa para frente');
+      break;
+    case 'rainha':
+        console.log('Movimento: para frente, para trás, para a esquerda, para a direita e na diagonal');
+        break;
+    case 'rei':
+            console.log('Movimento: uma casa em qualquer direção');
+        break;
+    case 'torre':
+      console.log('Movimento: para frente, para trás, para a esquerda e para a direita');
+      break;
+    default:
+      console.log('Erro: esta é uma peça inválida.');
+      break;
+  }
+
+  let nota = 88;
+
+if (nota < 0 || nota > 100) {
+  console.log("Erro: insira uma nota entre 0 e 100.");
+} else if (nota >= 90) {
+  console.log("A");
+} else if (nota >= 80) {
+  console.log("B");
+} else if (nota >= 70) {
+  console.log("C");
+} else if (nota >= 60) {
+  console.log("D");
+} else if (nota >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
