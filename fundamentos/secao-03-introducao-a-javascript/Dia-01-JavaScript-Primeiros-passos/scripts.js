@@ -1,9 +1,17 @@
-let myName = "Natan";
+let trybe = 19.40
 
-let birthCity = "Sapé"
+if (trybe >= 14 && trybe < 14.40) {
+    console.log("Esquenta");
+}
 
-let birthYear = "1990"
+else if (trybe >= 16.30 && trybe < 17.50) {
+    console.log("Aula ao vivo");
+}
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+else if (trybe >= 19.40 && trybe <20) {
+    console.log("Fechamento");
+}
+
+else {
+    console.log("Fora dos momentos síncronos");
+}
