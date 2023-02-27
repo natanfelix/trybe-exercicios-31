@@ -1,7 +1,7 @@
 let base = 5
 let heigth=8
-let area=40
-let perimeter=26
+let area= base * heigth
+let perimeter= base + heigth + base + heigth
 
-console.log(base * heigth);
-console.log(base+heigth+base+heigth)
+console.log(area);
+console.log(perimeter)
