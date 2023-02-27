@@ -20,21 +20,21 @@ if (num1>num2) {
     console.log(num1 + ' é o maior número. ');
 } 
 else if (num2 > num1) {
-    console.log(num2 + " é o maior número. ");
+    console.log(num2 +  'é o maior número. ');
   } 
 else {
-    console.log("Os dois números são iguais.");
+    console.log('Os dois números são iguais.');
   }
   
   
   if (num1 > num2 && num1 > num3) {
-    console.log(num1 + " é o maior número.");
+    console.log(num1 + ' é o maior número.');
   } else if (num2 > num1 && num2 > num3) {
-    console.log(num2 + " é o maior número.");
+    console.log(num2 + ' é o maior número.');
   } else if (num3 > num1 && num3 > num2) {
-    console.log(num3 + " é o maior número.");
+    console.log(num3 + ' é o maior número.');
   } else {
-    console.log("Há dois ou mais números iguais, não há um número maior.");
+    console.log('Há dois ou mais números iguais, não há um número maior.');
   }
 
   let numero = -5
@@ -101,17 +101,28 @@ else {
   let nota = 88;
 
 if (nota < 0 || nota > 100) {
-  console.log("Erro: insira uma nota entre 0 e 100.");
+  console.log('Erro: insira uma nota entre 0 e 100.');
 } else if (nota >= 90) {
-  console.log("A");
-} else if (nota >= 80) {
-  console.log("B");
-} else if (nota >= 70) {
-  console.log("C");
-} else if (nota >= 60) {
-  console.log("D");
-} else if (nota >= 50) {
-  console.log("E");
-} else {
-  console.log("F");
-}
+    console.log('A');
+  } else if (nota >= 80) {
+    console.log('B');
+  } else if (nota >= 70) {
+    console.log('C');
+  } else if (nota >= 60) {
+    console.log('D');
+  } else if (nota >= 50) {
+    console.log('E');
+  } else {
+    console.log('F');
+  }
+
+  let var1 = 2
+  let var2 = 3
+  let var3 = 5
+
+  if (var1 % 2 === 0 || var2 % 2 === 0 || var3 % 2 === 0) {
+    console.log ('true');
+  }
+    else {
+        console.log('false');
+    }
