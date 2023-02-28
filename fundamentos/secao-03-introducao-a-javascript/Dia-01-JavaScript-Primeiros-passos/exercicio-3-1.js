@@ -126,3 +126,26 @@ if (nota < 0 || nota > 100) {
     else {
         console.log('false');
     }
+
+    let var11 = 2
+    let var22 = 3
+    let var33 = 5
+  
+    if (var11 % 2 !== 0 || var22 % 2 !== 0 || var33 % 2 !== 0) {
+      console.log ('true');
+    } else {
+          console.log('false');
+      }
+
+let custoProduto = 185
+let vendaProduto = 290
+
+if (custoProduto<0 || vendaProduto <0) {
+  console.log('Os valores do custo e da venda devem ser maiores que zero')
+}
+
+let imposto = 0.2;
+let valorCustoTotal = custoProduto * (1+imposto)
+let lucro = vendaProduto - valorCustoTotal
+let lucroTotal = 1000 * lucro
+console.log('O lucro da venda de mil produtos é R$' +lucroTotal)
